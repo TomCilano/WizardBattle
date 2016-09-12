@@ -1,7 +1,5 @@
 package Battle;
 
-import Battle.Players.Mage;
-import Battle.Players.fight;
 
 import java.util.Date;
 import java.util.Random;
