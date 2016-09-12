@@ -204,7 +204,7 @@ public class PlayBattle
         int minusHealth = 0;
         int minusplayerHealth = 0;
         while (enemyHealth >0 && playerHealth>0){
-            System.out.println("Please choose and attack\n1."+ weapon+ "\n2." + Magic );
+            System.out.println("Please choose an attack\n1."+ weapon+ "\n2." + Magic );
             int Attack = getIntFromUser();
             if (Attack == 1)
             {
