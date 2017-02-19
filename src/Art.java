@@ -1,8 +1,10 @@
 /**
  * Created by Tom on 2/16/17.
  */
-public class Flavor extends Main{
-
+public class Art extends Main {
+    /**
+     * The methods in this class concern themselves with the ASCII art in this game.
+     */
 
     public static void intro() {
         System.out.println("             Welcome to:");
@@ -52,7 +54,8 @@ public class Flavor extends Main{
                 "                  `-..______..-'\n" +
                 "\n");
     }
-    public static void winFlavor(){
+
+    public static void winFlavor() {
         System.out.println("        _\n" +
                 "              _\\ /_\n" +
                 "              >_X_< \n" +
@@ -66,12 +69,13 @@ public class Flavor extends Main{
                 "       |() () () () () ()|\n" +
                 "       <<o>><<o>><o>><<o>>\n" +
                 "      `\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"`\n");
-        System.out.println("You have defeated the "+ enemyType +"!\n You've won WIZARD BATTLE\n Congratulations!");
+        System.out.println("You have defeated the " + enemyType + "!\n You've won WIZARD BATTLE\n Congratulations!");
 
     }
-    public static void beginGame(){
 
-        System.out.println("          !~.:PREPARE FOR BATTLE!:.~!\n You will be fighting a " + enemyType +"!");
+    public static void beginGame() {
+
+        System.out.println("          !~.:PREPARE FOR BATTLE!:.~!\n You will be fighting a " + enemyType + "!");
         System.out.println("                             /\\ \n" +
                 "                            /  \\\n" +
                 "                           |    |\n" +
@@ -92,10 +96,11 @@ public class Flavor extends Main{
                 " ( -   .00.   - _\n" +
                 "(    .'  _ )     )\n" +
                 "'-  ()_.\\,\\,   -");
-        System.out.println("\n\n\nA fearsome " + enemyType +" approaches!");
+        System.out.println("\n\n\nA fearsome " + enemyType + " approaches!");
         System.out.print("Please press 1 to continue!");
     }
-    public static void loseFlavor(){
+
+    public static void loseFlavor() {
         System.out.println("                  <     `/     |\n" +
                 "                                 >          (\n" +
                 "                                |   _     _  |\n" +
@@ -104,7 +109,7 @@ public class Flavor extends Main{
                 "                                |            |\n" +
                 "                 ______.______%_|            |__________  _____\n" +
                 "               _/                                       \\|     |\n" +
-                "              |                    " + chosenName +"                     <\n" +
+                "              |                    " + chosenName + "                     <\n" +
                 "              |_____.-._________              ____/|___________|\n" +
                 "                                |            |\n" +
                 "                                |            |\n" +
