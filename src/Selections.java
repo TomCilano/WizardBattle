@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Created by Tom on 2/19/17.
  */
-public class Conditionals extends Main {
+public class Selections extends Main {
 
     /**
      * This method deals with player name selection.

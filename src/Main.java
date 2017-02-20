@@ -18,10 +18,10 @@ public class Main {
 
 
         Art.intro();
-        Conditionals.nameSelection();
-        Conditionals.classSelection();
-        Conditionals.weaponSelection();
-        Conditionals.spellSelection();
+        Selections.nameSelection();
+        Selections.classSelection();
+        Selections.weaponSelection();
+        Selections.spellSelection();
         Art.beginGame();
         Combat.mainCombat();
 
