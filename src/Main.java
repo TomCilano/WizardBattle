@@ -12,7 +12,7 @@ public class Main {
     static int playerHealth = 100;
     static int enemyHealth = 100;
     static int minusHealth = 0;
-    static int minusplayerHealth = 0;
+    static int minusPlayerHealth = 0;
 
     public static void main(String[] args) {
 
@@ -27,6 +27,7 @@ public class Main {
 
 
     }
+
 }
 
 

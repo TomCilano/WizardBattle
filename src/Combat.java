@@ -34,7 +34,7 @@ public class Combat extends Main {
                     enemyDamage = enemyHealth + 5;
                 }
                 System.out.println(enemyType + "'s turn!\n\nThe " + enemyType + " does " + enemyDamage + " damage to you!\n\n");
-                minusplayerHealth = playerHealth - enemyDamage;
+                minusPlayerHealth = playerHealth - enemyDamage;
             }
 
             //This is a spell attack (at this point is is no different then a melee attack.)
@@ -47,11 +47,11 @@ public class Combat extends Main {
                     System.out.println("Oh no a CRITICAL STRIKE! you take + 5 damage");
                     enemyDamage = enemyHealth + 5;
                     System.out.println(enemyType + "'s turn!\n\nThe " + enemyType + " does " + enemyDamage + " damage to you!\n\n");
-                    minusplayerHealth = playerHealth - enemyDamage;
+                    minusPlayerHealth = playerHealth - enemyDamage;
 
                 }
                 enemyHealth = minusHealth;
-                playerHealth = minusplayerHealth;
+                playerHealth = minusPlayerHealth;
 
                 System.out.println(chosenName + " is at " + playerHealth + "hp");
                 System.out.println("The enemy " + enemyType + " is at " + enemyHealth + "hp\n");
